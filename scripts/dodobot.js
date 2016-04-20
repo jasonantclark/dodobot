@@ -1,12 +1,10 @@
 module.exports = function(robot) {
     robot.respond(/\btaming\b ([1-9][0-9]{0,2}) (.*)/i, function(msg){
         var url = "http://www.dododex.com/taming/"+msg.match[2]+"/"+msg.match[1];
-
+        console.log(url);
         var phantom = require('phantom');
         var sitepage = null;
         var phInstance = null;
-
-        var url = "http://www.dododex.com/taming/"+msg.match[2]+"/"+msg.match[1];
         phantom.create()
             .then(function(instance) {
                 phInstance = instance;
