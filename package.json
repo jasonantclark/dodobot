@@ -20,7 +20,8 @@
     "hubot-slack": "^3.4.2",
     "phantom": "^2.0.10",
     "phantomjs": "^2.1.7",
-    "redis": "^2.6.0-1"
+    "redis": "^2.6.0-1",
+    "spooky": "^0.2.5"
   },
   "engines": {
     "node": "5.9.x"
