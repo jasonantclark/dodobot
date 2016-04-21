@@ -22,6 +22,7 @@
     "phantom": "^2.0.10",
     "phantomjs": "^2.1.7",
     "redis": "^2.6.0-1",
+    "request": "^2.72.0",
     "spooky": "^0.2.5",
     "webshot": "^0.18.0"
   },
