@@ -5,6 +5,7 @@
   "author": "jason-clark@outlook.com",
   "description": "Dododex Integration for Slack",
   "dependencies": {
+    "casperjs": "^1.1.1",
     "hubot": "^2.18.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
@@ -21,7 +22,8 @@
     "phantom": "^2.0.10",
     "phantomjs": "^2.1.7",
     "redis": "^2.6.0-1",
-    "spooky": "^0.2.5"
+    "spooky": "^0.2.5",
+    "webshot": "^0.18.0"
   },
   "engines": {
     "node": "5.9.x"
