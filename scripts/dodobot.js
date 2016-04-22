@@ -15,7 +15,7 @@ module.exports = function(robot) {
 		if (msg.match[2] == 'quetz') {msg.match[2] = 'quetzal'}
 		if (msg.match[2] == 'monkey') {msg.match[2] = 'mesopithecus'}
 		if (msg.match[2] == 'beaver') {msg.match[2] = 'castoroides'}
-		if (msg.match[2] == 'frog') {msg.match[2] = 'beezlebufo'}
+		if (msg.match[2] == 'frog') {msg.match[2] = 'beelzebufo'}
         var readurl = "http://www.dododex.com/taming/"+msg.match[2]+"/"+msg.match[1];
         var slackapiurl = 'https://slack.com/api/files.upload'
         var filepath = 'dododex.png'
