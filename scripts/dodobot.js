@@ -16,6 +16,7 @@ module.exports = function(robot) {
                 var form = {
                 file: fs.createReadStream(filepath),
                 filename: filepath,
+				token: process.env.HUBOT_SLACK_TOKEN,
                 channels: room,
                 initial_comment:'All Rights Reserved dododex.com'};
 
