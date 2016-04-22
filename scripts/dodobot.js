@@ -17,7 +17,6 @@ module.exports = function(robot) {
                 file: fs.createReadStream(filepath),
                 filename: filepath,
                 channels: room,
-                token:"xoxb-35066962770-JSWipKypknHBSTh4i3ZWkFx4",
                 initial_comment:'All Rights Reserved dododex.com'};
 
 
