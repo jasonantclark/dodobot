@@ -8,7 +8,7 @@ module.exports = function(robot) {
 		if (msg.match[2] == 'giga') {msg.match[2] = 'giganotosaurus'}
 		if (msg.match[2] == 'ptera') {msg.match[2] = 'pteranodon'}
 		if (msg.match[2] == 'ape') {msg.match[2] = 'gigantopithecus'}
-		if (msg.match[2] == 'boa') {msg.match[2] = 'titanboa'}
+		if (msg.match[2] == 'boa') {msg.match[2] = 'titanoboa'}
 		if (msg.match[2] == 'do') {msg.match[2] = 'dodo'}
 		if (msg.match[2] == 'trike') {msg.match[2] = 'triceratops'}
 		if (msg.match[2] == 'dilo') {msg.match[2] = 'dilophosaur'}
